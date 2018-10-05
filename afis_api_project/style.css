@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+      min-height: 100%;
+      overflow: hidden;
+}
+ 
+body {
+      background: url('background.png') no-repeat;
+      background-size:100% 100%;
+      background-attachment: fixed;
+      /*background-image: linear-gradient(rgba(192, 192, 192, 0.3), rgba(192, 192, 192, 0.3)), url("background.jpg");*/
+}
+
+.navbar {
+    margin: 50px 50px 50px 0;
+}
+
+.navbar ul a {
+    padding: 20px;
+}
