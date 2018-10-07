@@ -2,22 +2,21 @@
     box-sizing: border-box;
 }
 
-html {
-      min-height: 100%;
-      overflow: hidden;
+body,h1 {
+    font-family: "Raleway", sans-serif
+}
+
+body, html {
+    height: 100%
 }
  
-body {
-      background: url('background.png') no-repeat;
-      background-size:100% 100%;
-      background-attachment: fixed;
+.bgimg {
+    background-image: url('background.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
       /*background-image: linear-gradient(rgba(192, 192, 192, 0.3), rgba(192, 192, 192, 0.3)), url("background.jpg");*/
 }
 
-.navbar {
-    margin: 50px 50px 50px 0;
-}
 
-.navbar ul a {
-    padding: 20px;
-}
+
