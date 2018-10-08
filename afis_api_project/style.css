@@ -9,6 +9,19 @@ body,h1 {
 body, html {
     height: 100%
 }
+
+.nav {
+    list-style: none;
+    color: #fff;
+    padding: 20px 20px;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+}
+
+.nav span {
+    font-size: 20px;
+    color: #C0C0C0;
+}
  
 .bgimg {
     background-image: url('background.jpg');
