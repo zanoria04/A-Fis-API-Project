@@ -146,4 +146,15 @@ body, html {
 
 /* ------------- FB-Comments Section --------------- */
 
+.w3-container .fb-comments {
+    padding-top: 100px;
+}
+
+/* ------------- Google Map Section --------------- */
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
 
